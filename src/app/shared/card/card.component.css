@@ -1,0 +1,22 @@
+ /* @import "~material-icons/iconfont/material-icons.css"; */
+p {
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+}
+.example-card {
+  max-width: inherit;
+  margin: 10px;
+}
+mat-card-image{
+height:10px;
+  }
+mat-card-subtitle {
+  font-size: 18px;
+}
+  
+mat-card-title {
+  color: green;
+  font-size: 55px;
+  justify-content: center;
+  display: flex;
+}

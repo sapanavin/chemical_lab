@@ -1,0 +1,83 @@
+.router-content{
+  display: column;
+   align-items: center;
+  justify-content: center;
+  margin:auto;
+  /* position:relative;
+    top:130px; */
+  
+
+} 
+
+div{
+  padding-left: 20px;
+  font-size: 16px Roboto sans-sheriff; 
+  color: #000000DE;
+  width:inherit;
+  padding-top: 10px;;
+}
+
+
+  span {
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    color: #444;
+    word-wrap: break-word;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+  }
+
+  
+  mat-sidenav {
+    /* position:fixed;
+    top:140px; */
+    margin: 16px;
+    width: fit-content;
+    border-right: none;
+    background: #F0F0F0;
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: left;
+    min-height:75vh; 
+  }
+
+  
+  mat-sidenav-container {
+
+    position:relative;
+      top:130px;
+      z-index: 1;
+      width: fit-content;
+      height:fit-content;
+      
+        /*height: fit-content;
+     min-height:75vh;  
+     height: calc(100vh - 65px);  */
+  }
+
+  .menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+  
+    mat-icon {
+      margin-right: 8px;
+    }
+  }
+
+  
+
+  mat-divider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }

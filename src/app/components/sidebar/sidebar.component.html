@@ -1,0 +1,64 @@
+<mat-sidenav-container>
+
+  <mat-sidenav mode="side" opened #sidenav>
+    <mat-nav-list>
+      <span mat-list-item>Links</span>
+      <a mat-list-item [routerLink]="'/twitterLink'"> @gopalJadhav on Twitter </a>
+      <a mat-list-item [routerLink]="'/publicatinLink'"> Our Publicatins on Google Scholar </a><br><br><br>
+      <span  mat-list-item >Contacts:</span>
+      <div mat-list-item>Gopal Jadhav, Ph.D.<br>
+        Department of Chemistry & Chemical <br>Biology<br>Phone: 617.373.2703</div>
+        <a mat-list-item href="mailto:m.pollastri@neu.edu">m.pollastri@neu.edu</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  
+  <mat-sidenav-content>
+    <div class="router-content">
+   
+      <router-outlet></router-outlet>
+
+  </div>
+  </mat-sidenav-content>
+
+
+</mat-sidenav-container> 
+
+
+
+
+
+<!-- <div class="mainlayout">
+  
+
+  
+<app-header></app-header>
+
+ <mat-sidenav-container >
+
+      <mat-sidenav mode="side" opened #sidenav >
+        <mat-nav-list>
+          <span mat-list-item>Links</span>
+          <a mat-list-item [routerLink]="'/twitterLink'"> @gopalJadhav on Twitter </a>
+          <a mat-list-item [routerLink]="'/publicatinLink'"> Our Publicatins on Google Scholar </a><br><br><br>
+          <span  mat-list-item >Contacts:</span>
+          <div mat-list-item>Gopal Jadhav, Ph.D.<br>
+            Department of Chemistry & Chemical <br>Biology<br>Phone: 617.373.2703</div>
+            <a mat-list-item href="mailto:m.pollastri@neu.edu">m.pollastri@neu.edu</a>
+        </mat-nav-list>
+      </mat-sidenav>
+
+      <mat-sidenav-content>
+        <div >
+              <router-outlet></router-outlet>
+          
+      </div>
+      </mat-sidenav-content>
+   
+    </mat-sidenav-container> 
+
+    <app-footer></app-footer>
+
+  </div>
+
+ mode="side" opened 
+style="height: 88vh;height: 88vh;"--> 

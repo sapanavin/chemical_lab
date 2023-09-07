@@ -1,0 +1,267 @@
+/* REMOVE THIS, USE YOUR OWN  */
+.footer{
+  /* position: absolute;
+  top:200px;
+  z-index: 2000;*/
+    position: fixed;
+    top:780px;
+    z-index: 1000;; 
+    width: 100%;
+    height: 2.5rem; 
+}
+
+.footer1 {
+ display:flex;
+ background-color: #33363B;
+ /* margin-left: 15px; */
+
+ box-sizing: border-box;
+ align-items: center;
+  
+}
+.footer2 {
+  display: flex;
+ justify-content: center;
+
+   /* margin-left:15px; */
+    clear: both;
+    height: 60px;
+    color: #FFF;
+    letter-spacing: 0.03em;
+    padding: 20px 0px;
+    left: 0;
+    /* bottom: 0; */
+    font-size: 11px;
+    background-color: #636363;
+    font-family: Arial,Verdana,Sans-Serif !important;
+}
+
+div>p {
+  flex: 1;
+  text-align: left;
+  padding-left: 15px;
+ 
+
+}
+
+.upscroll {
+  /* flex: 1; */
+  text-align: center;
+  margin-right: 100px;
+  background-color: white;
+  /* Blue background */
+  border: 1px solid black;
+  border-radius:15px;
+  /* Remove borders */
+  color: white;
+  /* White text */
+  /* Some padding */
+  font-size: 20px;
+  /* Set a font size */
+  cursor: pointer;
+  /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+i {
+  font-size: 50px;
+  color: red;
+}
+
+
+
+
+
+
+.footer2 a.neu-logo {
+  /* background: url(../../themes/ruggles/images/logo-footer.png) no-repeat scroll left top transparent; */
+  background-size: contain;
+  float: left;
+  height: 17px;
+  margin-left: 20px;
+  padding: 0;
+  
+  width: 173px;
+}
+
+.footer2 a, .footer2 a:visited {
+  color: #fff;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+ol, ul {
+  list-style: none;
+}
+li{
+  margin: 0 10px 10px 10px;
+}
+.footer2 .info {
+  display: flex;
+  float: left;
+  font-size: 12px;
+  list-style-type: none;
+  margin: 0 10px 10px 0px;
+  color: #CCC;
+}
+
+
+.footer2 .contact {
+  display: flex;
+  justify-content: center;
+    clear: both;
+    font-size: 100%;
+    line-height: 1.4em;
+    height: auto;
+    margin: 0 0 0 0px;
+    
+    padding: 0;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+/* STYLES SPECIFIC TO FOOTER  
+.footer {
+  margin-left:15px;
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #070617;
+}
+.footer .col {
+ 
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255,255,255,0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+.clearfix {
+  clear: both;
+}
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}
+
+
+
+element.style {
+}
+#neu-footer {
+    clear: both;
+    width: 100%;
+    height: 60px;
+    color: #FFF;
+    letter-spacing: 0.03em;
+    padding: 20px 0px;
+    left: 0;
+    bottom: 0;
+    font-size: 11px;
+    background-color: #636363;
+    font-family: Arial,Verdana,Sans-Serif !important;
+}
+/* i {
+    text-shadow: 2px 4px 6px orange;
+ 
+    text-align: center;
+ 
+}
+.fa{
+   
+    font-size: 60px;
+    
+}*/
