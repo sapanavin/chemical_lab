@@ -37,28 +37,28 @@
   font-style: italic;
   color: green;
 }
+ mat-toolbar {
+  /* background-color: white; 
+   width:90%;*/
+  background-color: red;
+  border-radius: 25px;
+  width:100%;
+  height: 40px;
+  align-items: start;
 
-/* mat-toolbar {
-    position: fixed;
-   z-index: 1000;
-   top:90px; 
 
 
-  color: white;
-  
-  margin-left: 15px;
-  margin-right: 15px;
-  border-radius: 15px;
- 
-
-} */
-mat-toolbar mat-toolbar-row{
-  
+} 
+ mat-toolbar-row{
+  width:99%;
+  padding-right: 15px;
+  margin: auto;
   margin-left: 15px;
   margin-right: 105px;
-  height: 45px;
-  background-color: red;
+  height: 40px;
+  background-color: #353535;
   border-radius: 15px;
+  color: white;
 }
 button:hover {
   background-color: blueviolet;

@@ -51,7 +51,9 @@ div{
   
   mat-sidenav-container {
 
-    position:relative;
+    /* position:relative;
+      top:130px; */
+      position:relative;
       top:130px;
       z-index: 1;
       width: fit-content;
