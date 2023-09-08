@@ -8,7 +8,7 @@ import { PublicationsPatentsComponent } from './components/publications-patents/
 
 const routes: Routes = [
  
-  
+  { path:  '', component:  HomeComponent},
   { path:  'home', component:  HomeComponent},
   { path:  'publications', component:  PublicationsPatentsComponent},
   { path:  'slide', component:  PhotoGallaryComponent}

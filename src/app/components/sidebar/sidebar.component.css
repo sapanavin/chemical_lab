@@ -36,9 +36,10 @@ div{
   
   mat-sidenav {
     /* position:fixed;
-    top:140px; */
+    top:140px; 
+    width: fit-content;*/
     margin: 16px;
-    width: fit-content;
+    
     border-right: none;
     background: #F0F0F0;
     color: white;
