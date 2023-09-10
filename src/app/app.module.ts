@@ -15,6 +15,7 @@ import { CarouselComponent } from './shared/carousel/carousel.component';
 import { SharedModule } from './shared/shared.module';
 import { PhotoGallaryComponent } from './components/photo-gallary/photo-gallary.component';
 import { PublicationsPatentsComponent } from './components/publications-patents/publications-patents.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { PublicationsPatentsComponent } from './components/publications-patents/
     AppRoutingModule,
     NoopAnimationsModule,
     MaterialModule,
-    SharedModule
+    SharedModule,
+    FlexLayoutModule
     
   ],
   providers: [],
