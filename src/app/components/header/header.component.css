@@ -1,8 +1,8 @@
-.header{
+.completepage{
   position:fixed;
   z-index: 1000;
   display:block;
-  width:89%;
+  width:100vw;
   box-sizing: border-box;
   /* margin-right: 25px;; 
    width:89%;*/
@@ -45,7 +45,7 @@
    border-radius: 15px;
   background-color: green;
   
-  width:100%;
+  width:100vw;
   height: 40px;
   align-items: start;
   

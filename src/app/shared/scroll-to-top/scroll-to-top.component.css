@@ -1,0 +1,39 @@
+.scroll-to-top {
+    position: absolute;
+    bottom: 15px;
+     opacity: 0;
+    transition: all .2s ease-in-out;
+   }
+   .show-scrollTop {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+   }
+
+   .upscroll {
+    /* flex: 1; */
+    text-align: center;
+    margin-right: 100px;
+    background-color: white;
+    /* Blue background */
+    border: 1px solid black;
+    border-radius:15px;
+    /* Remove borders */
+    color: white;
+    /* White text */                                     
+    /* Some padding */
+    font-size: 20px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  
+  i {
+    font-size: 50px;
+    color: red;
+  }
+  

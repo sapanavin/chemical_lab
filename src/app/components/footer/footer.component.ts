@@ -10,18 +10,11 @@ import { DOCUMENT } from '@angular/common';
 export class FooterComponent  {
 
 
-  @ViewChild('mattoolbar')
-  scroll: HeaderComponent;
+  // @ViewChild('mattoolbar')
+  // scroll: HeaderComponent;
   
-  constructor (  
+  constructor () {} 
   
-) {} 
-  // ngAfterViewChecked(): void {
-  //   console.log(this.scroll.mattoolbar.valueOf);
-  // }
-  // ngAfterViewInit(): void {
-  //   console.log(this.scroll.mattoolbar.valueOf);
-  // }
 
   
 //Refereerd from https://codetosolutions.com/blog/68/adding-a-scroll-to-top-button-in-angular
@@ -40,10 +33,8 @@ export class FooterComponent  {
         }
 
     })();
-
-
     console.log("i am clicked", document);
-//console.log(this.scroll.mattoolbar.valueOf);
+
   }
 
 }

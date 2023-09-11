@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class PhotoGallaryComponent {
 
- 
+ title: string="photo-gallery";
   images = [
     {
       imageSrc:

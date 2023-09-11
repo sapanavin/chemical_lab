@@ -3,6 +3,7 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 import { NavigationEnd, Router } from '@angular/router';
 import { SuperService } from 'src/app/services/super.service';
+import { ScrollToTopComponent } from 'src/app/shared/scroll-to-top/scroll-to-top.component';
 
 @Component({
   selector: 'app-sidebar',
@@ -10,9 +11,11 @@ import { SuperService } from 'src/app/services/super.service';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit{
-  @ViewChild(`sidenav`) sidenav:any;
+ @ViewChild(`sidenav`) sidenav:any;
 @ViewChild(`routerScrolltoTop`) routerScrolltoTop:any;
 
+
+title:string="at the end";
   constructor(private observer: BreakpointObserver,
                 private router: Router) {}
 
@@ -55,6 +58,11 @@ export class SidebarComponent implements OnInit{
          
       } 
     }
+    
+  }
+
+  scrollme(event:any) {
+
     
   }
 }

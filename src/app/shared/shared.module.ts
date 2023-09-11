@@ -4,6 +4,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { CardComponent } from './card/card.component';
 import { MaterialModule } from '../material/material.module';
 import { RouterMainTitleComponent } from './router-main-title/router-main-title.component';
+import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
 
 
 
@@ -12,7 +13,8 @@ import { RouterMainTitleComponent } from './router-main-title/router-main-title.
     CarouselComponent,
     CardComponent,
   
-    RouterMainTitleComponent
+    RouterMainTitleComponent,
+       ScrollToTopComponent
   ],
   imports: [
     CommonModule,
@@ -21,7 +23,8 @@ import { RouterMainTitleComponent } from './router-main-title/router-main-title.
   exports: [
     CarouselComponent,
     CardComponent,
-    RouterMainTitleComponent
+    RouterMainTitleComponent, 
+    ScrollToTopComponent
   ]
 })
 export class SharedModule { }
