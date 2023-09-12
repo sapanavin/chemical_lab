@@ -18,6 +18,8 @@ export class ScrollToTopComponent {
   constructor(@Inject(DOCUMENT) private document: Document) {}
   @HostListener("window:scroll", [])
   onWindowScroll() {
+    console.log("windowScrolled",this.windowScrolled);
+
       if (window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop > 100) {
           this.windowScrolled = true;
       } 
@@ -26,6 +28,9 @@ export class ScrollToTopComponent {
       }
   }
   scrollToTop() {
+    console.log("I got the message from router outlet to move to the top of the winsow component");
+    console.log(`windowScrolled ,${this.windowScrolled}`);
+
       (function smoothscroll() {
           var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
           if (currentScroll > 0) {

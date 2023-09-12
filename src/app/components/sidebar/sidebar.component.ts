@@ -12,7 +12,7 @@ import { ScrollToTopComponent } from 'src/app/shared/scroll-to-top/scroll-to-top
 })
 export class SidebarComponent implements OnInit{
  @ViewChild(`sidenav`) sidenav:any;
-@ViewChild(`routerScrolltoTop`) routerScrolltoTop:any;
+@ViewChild(`scroll`) routerScrolltoTop:ElementRef;
 
 
 title:string="at the end";
@@ -43,6 +43,7 @@ title:string="at the end";
   }
 
   mytoggle():void{
+
     console.log(`mytoggle works`);
     console.log(`this.sidenav.mode ${this.sidenav.mode}`);
 
@@ -61,8 +62,14 @@ title:string="at the end";
     
   }
 
-  scrollme(event:any) {
+  scrollMe():void {
+    console.log(this.routerScrolltoTop.nativeElement.scrollHeight);
+     this.routerScrolltoTop.nativeElement.scrollTop=0;
+     setTimeout(()=>{
+      console.log(this.routerScrolltoTop.nativeElement.scrollHeight)},5000);
+  //    this.routerScrolltoTop.nativeElement.scrollBottom=0;
+      
 
-    
   }
+
 }
