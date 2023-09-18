@@ -1,8 +1,8 @@
 .router-content{
   overflow-y:scroll;
    height: fit-content;
-   max-height: 73vh;
-   margin-bottom: 70px;;
+   max-height: 63vh;
+   margin-bottom: 10px;;
    display: column;
    align-items: center;
   justify-content: center;
@@ -64,7 +64,7 @@ div{
   
   mat-sidenav-container {
      width:100vw;
-     min-height: 70vh;
+     min-height: 20vh;
     /* position:relative;
       top:130px; */
       position:relative;
